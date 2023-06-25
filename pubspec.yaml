@@ -1,0 +1,145 @@
+name: app_teste
+description: A new Flutter project.
+
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_progress_hud: ^2.0.0
+  cpf_cnpj_validator: ^2.0.0
+  google_fonts: ^4.0.4
+  validators: ^3.0.0
+  validatorless: ^1.2.1
+  hexcolor: ^3.0.1
+  font_awesome_flutter: ^10.4.0
+  otp_text_field: ^1.1.1
+  http: ^0.13.4
+  url_launcher: ^6.0.20
+  shared_preferences: ^2.0.13
+  page_transition: ^2.0.5
+  flutter_icons: ^1.2.0
+  search_cep: ^4.0.0+1
+
+
+
+  
+  
+  
+  
+
+  
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.1
+  animated_text_kit: ^4.2.1
+  line_icons: ^2.0.0
+  drop_shadow_image: ^0.9.1
+  flutter_launcher_icons: ^0.12.0
+  fluttertoast: ^8.0.8
+  brasil_fields: ^1.4.1
+  carousel_slider: "^4.0.0"
+  html: ^0.15.0
+  email_validator: ^2.0.1
+  estados_municipios: ^2.0.0+3  
+    
+
+
+    # store image
+  path_provider: ^2.0.9
+
+
+  
+
+
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon.png"  
+  
+  
+
+  
+  
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+  - assets/icon.png
+  - assets/
+  - assets/logo_cadeado.png
+  - assets/image/
+  - assets/sanguee.png
+  - assets/image/1.jpg
+  - assets/image/2.jpg
+  - assets/image/5.jpg
+  - assets/image/junho_verme.jpg  
+  - assets/image/menina_deitada.png
+  - assets/image/doe_vida.jpg
+  - assets/image/doe_regularmente.png
+  - assets/doacao2.png
+  - assets/doacao3.png
+  - assets/doacao5.png
+  - assets/doacao6.png
+  - assets/baixados2.png
+  - assets/form1.png
+  - assets/backgroud.jpg
+  - assets/form3.png
+  - assets/form4.png
+  - assets/form6.png
+
+  
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
+
+  
